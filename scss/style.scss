@@ -1,0 +1,29 @@
+// Include Compass for all of its awesomeness
+@import 'compass';
+
+// Include Variables
+@import 'sherpa-variables';
+@import 'bootstrap-variables';
+
+// Include Bootstrap
+@import 'bootstrap';
+
+// Include styles needed by WordPress for the editor to work right
+@import 'wp-core';
+
+// Non-responsiveness Setup - uncomment if this is going to be a non-responsive site
+//@import 'non-responsive';
+
+// Special components
+@import 'sherpa-navbar';
+@import 'sherpa-buttons';
+@import 'sherpa-general';
+
+// Sections
+@import 'sherpa-header';
+@import 'sherpa-main';
+@import 'sherpa-sidebar';
+@import 'sherpa-footer';
+
+// Styling Specifically for the home page
+@import 'sherpa-home';
